@@ -1,9 +1,11 @@
-/*Get a four-digit number from user and only reverse the 
+/*
+Get a four-digit number from user and only reverse the 
 first two digits of the number, then print the number.
 
 Input: 9561 Output 9516. 
-Input: 3859 Output: 3895
+Input: 3859 Output: 3895.
 */
+
 #include<stdio.h>
 int main(){
     int num;
