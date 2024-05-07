@@ -5,8 +5,8 @@ int main(){
     int num;
     printf("Enter Three Digit Number :");
     scanf("%d",&num);
-    int hundredDigit = num%1000/100;
-    int tensDigit = num%100/10;
+    int hundredDigit = (num/100)%10;
+    int tensDigit = (num/10)%10;
     int onesDigit = num%10;
     int result = (hundredDigit + tensDigit + onesDigit);
     if(result == 10){

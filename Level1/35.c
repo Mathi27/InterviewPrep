@@ -1,5 +1,4 @@
 /* Get two 3-digit numbers from user.
-
 Add the one’s digit and hundred’s digit of both the numbers. 
 Print the sum of all the digits of the number whose sum of one’s and hundred’s digits is bigger.
 
@@ -29,8 +28,5 @@ int main(){
          int sum_of_SecondNumber_Digits = num2OnesDigit + num2TensDigit + num2HundredsDigit;
          printf("Output : %d\n",sum_of_SecondNumber_Digits);
     }
-
-   
-
     return 0;
 }

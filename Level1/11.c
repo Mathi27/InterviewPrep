@@ -5,7 +5,7 @@ int main(){
     printf("Enter 2 Digit Number :");
     scanf("%d",&x);
     int unitDigitExtract = x%10; // it return the ones digit.
-    int tensDigitExtract = x/10; 
+    int tensDigitExtract = x/10; // remove the ones digit.
     int result = unitDigitExtract + tensDigitExtract;
     printf("op: %d\n",result);
     return 0;

@@ -10,3 +10,11 @@ int main(){
     int result  = ones + tens + hundred;
     printf("output : %d\n",result);
 }
+/**
+ * 
+ * 345 --> 543
+ * ones digit * 100 --> 500
+ * tens digit * 10  -> 40
+ * hundred digit -> 3.
+ * ones + tens + hundred = 500 + 40 + 3 = 543. (The Number is Reversed.)
+*/
