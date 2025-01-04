@@ -1,28 +1,25 @@
-#include<stdio.h> // Headder File 
+#include<stdio.h>  // Header file
+  /*
 
+  Prog : To get subject marks from user and get total and print the output.
+
+  */
+ 
 int main(){
+   int a ;
+   int b;
+   float c;
+   float total;
 
- /* Data Types */
+   printf("Enter subject 1: ");
+   scanf("%d",&a);
+   printf("Enter Subject 2: ");
+   scanf("%d",&b);
+   printf("Enter Subject 3: ");
+   scanf("%f",&c);
+   printf("Enter Subject 4 :");
 
- int val;
- float b;
- char c;
- char name[20];
-   printf("Enter a Character Value :");
-  scanf("%c",&c);
-  printf("Enter a Integer Value :");
-  scanf("%d",&val);
-  printf("Enter a Decimal Value :");
-  scanf("%f",&b);
-  printf("Enter your Name: ");
-  scanf("%s",name);
-  
- printf("%s\n",name);
- printf("%d\n",val);
- printf("%f\n",b);
- printf("%c\n",c);
- 
- 
+   
 
-    
+  return 0;
 }

@@ -1,4 +1,4 @@
-// Get a two-digit number from user and print sum the digits.
+// Get a three-digit number from user and print the ten’s digit.
 #include<stdio.h>
 int main(){
     int x;

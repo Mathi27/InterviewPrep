@@ -1,4 +1,4 @@
-//Get a number from user and subtract 5 to that number and print the result.
+// Get a number from user and subtract 5 to that number and print the result.
 #include<stdio.h>
 int main(){
     int num1;
