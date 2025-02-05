@@ -15,6 +15,4 @@ int main(){
          num = num / 10;
     }
     printf("count value : %d\n",count);
-    
-
 }
