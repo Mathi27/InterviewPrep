@@ -7,7 +7,7 @@ Input: 128 365 - Output: 11
 
 */
 #include<stdio.h>
-int main(){
+main(){
     int num1,num2;  
     printf("Enter Two 3 Digit Numbers : ");
     scanf("%d %d",&num1,&num2);
